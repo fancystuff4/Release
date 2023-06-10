@@ -1,6 +1,6 @@
 {
   "name": "@benmvp/cli",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0-development",
   "description": "A highly-opinionated, zero-config CLI for consistent infra for Ben Ilegbodu's Typescript-based libraries",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
@@ -32,7 +32,8 @@
     "prebuild": "npm run bootstrap",
     "build": "./bin/benmvp build && scripts/copy-configs.sh",
     "preintegrate": "npm run build",
-    "integrate": "./bin/benmvp integrate"
+    "integrate": "./bin/benmvp integrate",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@babel/cli": "^7.7.5",
@@ -78,6 +79,7 @@
     "@types/lodash": "^4.14.149",
     "@types/yargs": "^13.0.3",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "semantic-release": "^21.0.5"
   }
 }
