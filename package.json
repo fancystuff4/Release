@@ -13,7 +13,7 @@
     "lib",
     "bin"
   ],
-  "repository": "https://github.com/benmvp/benmvp-cli.git",
+  "repository": "https://github.com/fancystuff4/Release.git",
   "author": "Ben Ilegbodu <ben@benmvp.com>",
   "license": "MIT",
   "publishConfig": {
