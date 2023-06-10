@@ -7,6 +7,8 @@ on:
 
 jobs:
   main:
+    permissions:
+      contents: write
     name: NPM Release
     runs-on: ubuntu-latest
 
